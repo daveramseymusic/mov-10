@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://daveramseymusic.github.io',
                 'git_url': 'https://github.com/daveramseymusic/mov-10',
                 'lib_path': 'mov_10'},
-  'syms': {'mov_10.recommender': {'mov_10.recommender.foo': ('mov_recommender_attempt.html#foo', 'mov_10/recommender.py')}}}
+  'syms': { 'mov_10.movie_rec_og': { 'mov_10.movie_rec_og.get_movie_recs': ('movie_rec_og.html#get_movie_recs', 'mov_10/movie_rec_og.py'),
+                                     'mov_10.movie_rec_og.search_movies': ('movie_rec_og.html#search_movies', 'mov_10/movie_rec_og.py')},
+            'mov_10.recommender': {'mov_10.recommender.foo': ('mov_recommender_attempt.html#foo', 'mov_10/recommender.py')}}}
